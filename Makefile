@@ -1,9 +1,6 @@
 all: world
 CXX?=g++
 CXXFLAGS?=--std=c++17 -Wall
-LDFLAGS?=-L/lib -L/usr/lib
-
-INCLUDES+= -I./include
 
 OBJS:= \
 	objs/main.o

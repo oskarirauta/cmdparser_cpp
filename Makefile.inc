@@ -1,5 +1,5 @@
-CMDPARSER_DIR?=cmdparser
-INCLUDES += -I./$(CMDPARSER_DIR)/include
+CMDPARSER_DIR?=./cmdparser
+INCLUDES += -I$(CMDPARSER_DIR)/include
 CMDPARSER_OBJS:= \
 	objs/cmdparser.o
 
